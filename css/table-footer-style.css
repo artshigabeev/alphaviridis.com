@@ -1,0 +1,467 @@
+@font-face {
+	font-family: 'Conv_Sansation_Bold';
+	src: url('../fonts/Sansation_Bold.eot');
+	src: local('☺'), url('../fonts/Sansation_Bold.woff') format('woff'), url('../fonts/Sansation_Bold.ttf') format('truetype'), url('../fonts/Sansation_Bold.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Sansation_Regular';
+	src: url('../fonts/Sansation_Regular.eot');
+	src: local('☺'), url('../fonts/Sansation_Regular.woff') format('woff'), url('../fonts/Sansation_Regular.ttf') format('truetype'), url('../fonts/Sansation_Regular.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Conv_Sansation_Light';
+	src: url('../fonts/Sansation_Light.eot');
+	src: local('☺'), url('../fonts/Sansation_Light.woff') format('woff'), url('../fonts/Sansation_Light.ttf') format('truetype'), url('../fonts/Sansation_Light.svg') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+
+header,footer,section,aside,nav,article {
+    display:block
+}
+
+/* === LAYOUT === */
+body {
+    margin: auto;
+    padding: 0;
+    background: #fff url(../images/body-bg-1.png) repeat;
+    font-family: 'Conv_Sansation_Regular', Arial, sans-serif;
+    font-size: 62.5%;
+    text-align: left;
+    color: #444444;
+}
+a {
+    color: #014d7c;
+    text-decoration: underline;
+}
+a:hover, a:focus {
+    text-decoration: none;
+}
+/*h1, h2, h3 {
+    font-family: 'BebasNeueRegularTrebuchet MS';
+}*/
+h1, h2, h3 {
+    font-family: 'Conv_Sansation_Light';
+	letter-spacing:0.3em;
+	text-align:center;
+}
+input, textarea {
+    color: #7f7f7f;
+    font-family: 'Lucida Grande';
+}
+.message {
+    text-align: center;
+    padding: 10px 0;
+    width: 95%;
+    background: #fffbcc;
+    border: 1px solid #e6db55;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    position: absolute;
+    display: none;
+    font-size: 1.4em;
+}
+.message a {
+    display: block;
+    width: 7px;
+    height: 7px;
+    background: url(../images/cross-gray.png) no-repeat;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    text-indent: -9999px;
+}
+.message a:hover {
+    cursor: pointer;
+}
+#wrapper {
+    width: 960px;
+    overflow: hidden;
+    margin: 100px auto 100px auto;
+    text-align: center;
+}
+#content {
+    overflow: hidden;
+    margin-bottom: 50px;
+}
+
+
+/*  */
+
+#tooltip{
+	position:absolute;
+	border:1px solid #333;
+	background:#f7f5d1;
+	padding:2px 5px;
+	color:#333;
+	display:none;
+	}	
+
+/*  */
+
+/* === SETTINGS  - only for demo, you can delete === */
+#settings {
+    position: absolute;
+    left: 0;
+    top: 100px;
+}
+#settings li a {
+    width: 20px;
+    height: 20px;
+    margin-bottom: 5px;
+    text-indent: -9999px;
+    display: block;
+}
+#settings .button {
+    width: 32px;
+    height: 39px;
+    background: url(../images/settings-button.png) 0 0 no-repeat;
+    display: block;
+    text-indent: -9999px;
+}
+.active .button {
+    background-position: -33px 0 !important;
+}
+#settings .content {
+    position: relative;
+    left: -35px;
+    background: #c8c8c8;
+    padding: 5px;
+    margin-top: 10px;
+}
+#settings .red a {
+    background: red;
+}
+#settings .blue a {
+    background: #066fc3;
+}
+#settings .green a {
+    background: #14b43e;
+}
+#settings .violet a {
+    background: #c02fc9;
+    margin-bottom: 15px;
+}
+#settings .orange a {
+    background: #e66205;
+}
+#settings .bg5 a {
+    margin-bottom: 0;
+}
+#settings .bg5 {
+    background: #fff;
+}
+
+
+/* === TIMER SECTION === */
+#main-head {
+    font-size: 7em;
+    text-align: center;
+    margin: 0 auto 70px auto;
+}
+#timer {
+    overflow: hidden;
+    display: inline-block;
+}
+#timer .countdown_section {
+    width: 208px;
+    height: 208px;
+    background: url(../images/circle-green.png) no-repeat;
+    float: left;
+    display: block;
+    overflow: hidden;
+    font-size: 1.8em;
+    color: #404040;
+    margin-right: 25px;
+}
+#timer .countdown_section:last-child {
+    margin-right: 0 !important;
+}
+#timer .countdown_amount {
+    font-size: 2.67em;
+    margin-top: 45px;
+    display: block;
+    font-weight: bold;
+}
+
+
+/* === CONTACT SECTION === */
+#secondary {
+    background: #444444 url(../images/secondary-decor.png) top no-repeat;
+    padding-top: 15px;
+}
+#secondary .wrapper {
+    width: 900px;
+    margin: auto;
+    overflow: hidden;
+}
+#secondary h2 {
+    font-size: 3.6em;
+    color: #fff;
+    margin-bottom: 10px;
+}
+#about {
+    width: 380px;
+    float: left;
+}
+#about p {
+    font-size: 1.3em;
+    line-height: 1.7em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+#contact {
+    float: right;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+#contact .message {
+    top: 130px;
+    left: 10px
+}
+#contact h2 {
+    margin-bottom: 17px;
+}
+#contact .decor {
+	position: absolute;
+	width: 170px;
+	height: 45px;
+	background: url(../images/leave-us-a-message1.png) no-repeat;
+	bottom: 15px;
+	right: 51px;
+}
+#contact .mover {
+	position: absolute;
+	width: 338px;
+	height: 45px;
+	background: url(../images/mouse-over.png) no-repeat;
+	top: 539px;
+	left: 384px;
+}
+#contact label {
+    display: none;
+}
+#contact label.error {
+    color: #fff;
+    font-size: 1.2em;
+}
+#contact input.error, #contact textarea.error {
+    margin-bottom: 5px;
+}
+#contact input, #contact textarea {
+    border: 0;
+    padding: 0;
+    background-color: #fff;
+    display: block;
+    font-size: 1.3em;
+}
+#contact .name, #contact .sender, #contact .msg {
+    margin-bottom: 20px;
+}
+#contact input {
+    width: 311px;
+    height: 36px;
+    padding-left: 50px;
+    line-height: 36px;
+}
+#contact .name input {
+    background: url(../images/input-name.png) no-repeat;
+	width: 365px;
+}
+#contact .sender input {
+    background: url(../images/input-email.png) no-repeat;
+	width: 365px;
+}
+#contact .msg textarea {
+    background: url(../images/input-textarea.png) 0 0 no-repeat;
+    width: 365px;
+    height: 160px;
+    padding: 10px 10px 10px 50px;
+}
+#contact .submit-button {
+    background: url(../images/submit-green.png) 0 0 no-repeat;
+    width: 131px;
+    height: 36px;
+    text-indent: -9999px;
+}
+#contact .submit-button:hover, #kontakt .submit-button:focus {
+    background-position: -131px 0;
+    cursor: pointer;
+}
+#contact .submit-button:active {
+    background-position: -262px;
+}
+#footer {
+    background: url(../images/footer-border-green.png) top repeat-x;
+	background-color:#FFF;
+}
+#footer .wrapper {
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 10px 0;
+}
+#footer ul {
+    display: inline-block;
+}
+#footer li {
+    float: left;
+    height: 31px;
+    padding-left: 40px;
+    line-height: 31px;
+    color: #fff;
+    font-size: 1.4em;
+    margin-right: 76px;
+	display:inline-block;
+}
+#footer .email {
+    background: url(../images/icon-email.png) no-repeat;
+}
+#footer .address {
+    background: url(../images/icon-address.png) no-repeat;
+}
+#footer .fb {
+    background: url(../images/icon-facebook.png) no-repeat;
+}
+#footer .twitter {
+    background: url(../images/icon-twitter.png) no-repeat;
+    margin-right: 0;
+}
+#footer a {
+    color: #fff;
+}
+
+
+/* === NEWSLETTER SECTION === */
+#newsletter {
+    text-align: center;
+    position: relative;
+}
+#newsletter .message {
+    top: 40px;
+    left: 0;
+}
+#newsletter .wrapper {
+    display: inline-block;
+}
+#newsletter p {
+    display: block;
+    float: left;
+}
+#newsletter label.main {
+    display: inline-block;
+    width: 212px;
+    height: 79px;
+    background: url(../images/stay-informed.png) no-repeat;
+    text-indent: -9999px;
+    margin-right: 20px;
+}
+#newsletter label.error {
+    display: block;
+    margin-left: 235px;
+    font-size: 1.2em;
+    text-align: left;
+}
+#newsletter .email {
+    width: 303px;
+    height: 33px;
+    background: url(../images/input-bg.png) no-repeat;
+    border: 0;
+    padding: 0 5px;
+    line-height: 33px;
+    font-size: 1.3em;
+}
+#newsletter .submit {
+    width: 130px;
+    height: 33px;
+    background: url(../images/notifyme-green.png) no-repeat;
+    text-indent: -9999px;
+    border: 0;
+    float: left;
+    margin-left: 10px;
+}
+#newsletter .submit:hover {
+    cursor: pointer;
+    background-position: -130px;
+}
+#newsletter .submit:active {
+    background-position: -260px;
+}
+#newsletter .email, #newsletter .submit {
+    position: relative;
+    top: 50px;
+}
+
+
+/* === COLOR AND BACKGROUND SETTINGS === */
+
+/* === BLUE COLOR === */
+.color-blue #newsletter .submit {
+    background-image: url(../images/notifyme-blue.png);
+}
+.color-blue #timer .countdown_section {
+    background: url(../images/circle-blue.png) no-repeat;
+}
+.color-blue #secondary {
+    background-color: #1279c5;
+}
+.color-blue #footer {
+    background-image: url(../images/footer-border-blue.png);
+}
+.color-blue #contact .submit-button {
+    background-image: url(../images/submit-blue.png);
+}
+
+
+
+.bg1 {
+    background-image: url(../images/body-bg-1.png);
+}
+.bg2 {
+    background-image: url(../images/body-bg-2.png);
+}
+.bg3 {
+    background-image: url(../images/body-bg-3.png);
+}
+.bg4 {
+    background-image: url(../images/body-bg-4.png);
+}
+.bg5 {
+    background-image: none;
+}
+/* mouse over css*/
+div.demo {
+    float:left; width:34em;
+    background-color:#eee; border:1px solid black;
+    padding:6px; margin:1em 0;
+    font-size:.9em;
+    }
+.demo ul {
+    width:8em;
+    float:left;
+    padding:0; margin:0 0 0 .4em;
+    list-style-type:none;
+    }
+.demo ul li {
+    margin-bottom:.6em;
+    }
+div#infoDiv { 
+    float:left; 
+    width:20em; 
+  }
+  .txt{
+	  font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	  font-size:14px;
+	  padding:20px 20px;
+  }
+p.clearer { clear:both; padding-top:1em; }

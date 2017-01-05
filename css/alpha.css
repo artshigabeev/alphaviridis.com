@@ -1,0 +1,48 @@
+/* line 7, alpha.css.scss */
+#logo-display, .logo {
+  -webkit-transition: all, 0.5s;
+  -moz-transition: all, 0.5s;
+  -o-transition: all, 0.5s;
+  transition: all, 0.5s;
+  left: 573px; }
+  /* line 10, alpha.css.scss */
+  #logo-display.hidden, .logo.hidden {
+    left: -50px; }
+
+/* line 17, alpha.css.scss */
+#segment-nav {
+  position: relative;
+  width: 930px;
+  margin: 0px auto;
+  margin-bottom: 100px;
+  margin-top: 100px; }
+
+/* line 23, alpha.css.scss */
+.mapped {
+  position: relative; }
+
+/* line 58, alpha.css.scss */
+#logo-display {
+  height: 156px;
+  width: 400px;
+  position: absolute;
+  left: 373px;
+  top: 30px; }
+  /* line 65, alpha.css.scss */
+  #logo-display .logo {
+    position: absolute;
+    top: -999px;
+    left: 0px; }
+    /* line 69, alpha.css.scss */
+    #logo-display .logo.current {
+      top: 0px; }
+
+/* line 74, alpha.css.scss */
+#alpha-logo {
+  width: 584px;
+  height: 73px;
+  position: absolute;
+  left: 342px;
+  top: 243px;
+  background-repeat: no-repeat;
+  background-image: url('../images/alpha-viridis-logo.png'); }

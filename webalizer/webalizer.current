@@ -1,0 +1,239 @@
+# Webalizer V2.01-09 Incremental Data - 02/14/2013 02:37:21
+2013 2 14 2 37 21
+235 186 5 40 2 8 3342289 12 6 0
+3 33 165 13 14
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+200 155 2864912 3 9 3
+35 31 477377 3 3 3
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+0 0 0 0 0 0
+2 1 12118 2
+0 0 0 0
+33 30 465259 1
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+165 152 2753856 7
+35 3 111056 2
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0 0 0 0
+0
+0
+0
+186
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+28
+0
+0
+0
+0
+0
+1
+20
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+# -urls- 
+/images/leave-us-a-message1.png
+1 4 0 12013 0 0
+/
+0 9 0 107631 3 1
+/fonts/Sansation_Bold.eot
+0 2 0 158370 0 0
+/js/dw_event.js
+0 8 0 10104 0 0
+/js/dw_contentswap.js
+0 8 0 32113 0 0
+/images/green.gif
+1 4 0 51888 0 0
+/images/mouse-over.png
+1 8 0 32547 0 0
+/images/A.Ve.favicon.ico
+0 3 0 3022 0 0
+/images/copy-AQHHC.png
+1 8 0 66511 0 0
+/images/mdl-logo.png
+1 1 0 22309 0 0
+/images/purple.gif
+1 5 0 52278 0 0
+/images/red.gif
+1 5 0 51494 0 0
+/images/input-textarea.png
+1 4 0 13579 0 0
+/images/secondary-decor.png
+1 8 0 12555 0 0
+/images/aqhhc-logo.png
+1 1 0 14773 0 0
+/images/mgl-logo.png
+1 1 0 46719 0 0
+/images/body-bg-1.png
+1 8 0 9188 0 0
+/images/input-name.png
+1 4 0 6987 0 0
+/images/copy-aqua.png
+1 8 0 81841 0 0
+/images/aqua-logo.png
+1 1 0 26657 0 0
+/images/orng.gif
+1 8 0 90283 0 0
+/css/style.css
+0 8 0 72034 0 0
+/images/footer-border-green.png
+1 8 0 21536 0 0
+/images/copy-vomark.png
+1 8 0 95568 0 0
+/css/css.css
+0 8 0 3686 0 0
+/fonts/Sansation_Light.eot
+0 4 0 316992 0 0
+/fonts/Sansation_Light.ttf
+0 4 0 237367 0 0
+/images/copy-IL.png
+1 8 0 69402 0 0
+/images/copy-MDL.png
+1 8 0 74351 0 0
+/fonts/Sansation_Regular.eot
+0 4 0 315684 0 0
+/images/vomark-logo.png
+1 1 0 34275 0 0
+/images/blue.gif
+1 4 0 39217 0 0
+/images/grey.gif
+1 4 0 42289 0 0
+/images/il-logo.png
+1 1 0 18628 0 0
+/images/ave-star.gif
+1 8 0 618952 0 0
+/fonts/Sansation_Regular.ttf
+0 4 0 236407 0 0
+/images/index_04.gif
+1 8 0 54457 0 0
+/images/submit-green.png
+1 4 0 52969 0 0
+/images/copy-MGL.png
+1 8 0 114579 0 0
+/images/input-email.png
+1 4 0 7426 0 0
+# End Of Table - urls
+# -sites- (monthly)
+118.142.50.44
+0 1 0 159 1 1360800734
+-
+27.55.151.91.in-addr.arpa
+0 1 0 706 1 1360785289
+-
+c-98-228-71-211.hsd1.in.comcast.net
+0 144 101 1674047 2 1360809440
+/
+static-ip-85-25-110-133.inaddr.ip-pool.com
+0 1 1 11959 1 1360802509
+/
+s135-router.geotek.de
+0 88 84 1655418 1 1360781325
+/
+# End Of Table - sites (monthly)
+# -sites- (daily)
+118.142.50.44
+0 1 0 159 1 1360800734
+-
+c-98-228-71-211.hsd1.in.comcast.net
+0 33 30 465259 1 1360809440
+/
+static-ip-85-25-110-133.inaddr.ip-pool.com
+0 1 1 11959 1 1360802509
+/
+# End Of Table - sites (daily)
+# -referrers- 
+http://alphaviridis.com/css/style.css
+1 12
+http://alphaviridis.com/
+1 206
+# End Of Table - referrers
+# -agents- 
+Mozilla/4.0+(compatible;+MSIE+8.0;+Windows+NT+5.1;+Trident/4.0;+.NET+CLR+2.0.50727;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729)
+0 22
+Mozilla/5.0+(X11;+Ubuntu;+Linux+i686;+rv:18.0)+Gecko/20100101+Firefox/18.0
+0 41
+Java/1.6.0_22
+0 1
+Mozilla/5.0+(X11;+Linux+i686)+AppleWebKit/537.17+(KHTML,+like+Gecko)+Chrome/24.0.1312.69+Safari/537.17
+0 103
+Mozilla/5.0+(compatible;+MSIE+9.0;+Windows+NT+6.1;+Trident/5.0)
+0 23
+Mozilla/4.0+(compatible;+MSIE+6.0;+Windows+98;+Win+9x4.90)
+0 1
+Mozilla/4.0+(compatible;+MSIE+7.0;+Windows+NT+5.1;+.NET+CLR+2.0.50727;+.NET+CLR+3.0.4506.2152;+.NET+CLR+3.5.30729;+.NET4.0C;+.NET4.0E)
+0 22
+Mozilla/5.0+(compatible;+MSIE+10.0;+Windows+NT+6.2;+Trident/6.0)
+0 21
+# End Of Table - agents
+# -search strings- 
+# End Of Table - search strings
+# -usernames- 
+# End Of Table - usernames
+# -Error404- 
+# End Of Table - Error404-

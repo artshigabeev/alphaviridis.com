@@ -1,0 +1,627 @@
+AWSTATS DATA FILE 6.8 (build 1.910)
+# If you remove this file, all statistics for date 201308 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 1915                
+POS_TIME 2602                
+POS_VISITOR 12577               
+POS_DAY 18545               
+POS_DOMAIN 3439                
+POS_LOGIN 3881                
+POS_ROBOT 4036                
+POS_WORMS 4627                
+POS_EMAILSENDER 4758                
+POS_EMAILRECEIVER 4901                
+POS_SESSION 19281               
+POS_SIDER 19467               
+POS_FILETYPES 5036                
+POS_OS 5298                
+POS_BROWSER 5427                
+POS_SCREENSIZE 5739                
+POS_UNKNOWNREFERER 5813                
+POS_UNKNOWNREFERERBROWSER 6111                
+POS_ORIGIN 6323                
+POS_SEREFERRALS 6464                
+POS_PAGEREFS 6631                
+POS_SEARCHWORDS 6894                
+POS_KEYWORDS 7084                
+POS_MISC 2266                
+POS_ERRORS 7181                
+POS_CLUSTER 3737                
+POS_SIDER_404 7293                
+POS_PLUGIN_geoip_city_maxmind 11574               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20130901005640 4256 920487 7342112382941
+FirstTime 20130801005728
+LastTime 20130831225336
+LastUpdate 20130901023652 4256 4121 131 3 0
+TotalVisits 329                 
+TotalUnique 152                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 152                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 24 85 341272 51 55 397201
+1 6 44 609271 48 49 366200
+2 23 90 755909 41 43 340685
+3 9 39 66102 51 55 349047
+4 22 22 242316 58 59 382921
+5 6 7 98922 32 32 234952
+6 41 72 1872522 52 69 398724
+7 1 1 3475 55 56 359272
+8 20 58 763451 60 62 414453
+9 15 50 677975 67 71 407407
+10 36 279 2380824 55 70 385468
+11 29 591 6050257 75 106 432932
+12 68 1135 12715609 34 77 388126
+13 68 1267 16716876 42 84 478467
+14 58 660 6269865 63 84 552974
+15 9 132 1110185 43 47 358298
+16 24 55 231241 47 49 373215
+17 14 135 1698812 47 51 367565
+18 33 140 853755 52 57 382362
+19 23 319 3293631 104 118 446584
+20 54 587 4075101 197 227 506177
+21 35 698 3681083 44 80 293958
+22 46 558 5022265 55 88 481343
+23 15 162 1755319 51 55 376472
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 15
+ec 279 5802 56644457
+jp 130 130 1431717
+cn 130 130 1378929
+us 98 1050 9952170
+fr 18 49 1619276
+unknown 12 13 157434
+ua 2 2 22034
+za 2 2 6969
+lt 2 2 22034
+cl 1 1 11017
+br 1 1 3475
+tw 1 1 3475
+nl 1 1 11017
+de 1 1 11017
+ge 1 1 11017
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+baiduspider 733 7945045 20130831031140 0
+bot[+:,\.\;\/\\-] 99 542561 20130831204625 0
+yandex 39 137699 20130828092616 0
+bspider 27 95735 20130831181515 0
+googlebot 24 75888 20130831042351 0
+no_user_agent 8 11017 20130827193643 0
+spider 3 10478 20130831234835 0
+netcraft 2 11017 20130809144232 0
+msnbot\-media 2 44114 20130818040710 0
+robot 2 6950 20130815005409 0
+python 1 11017 20130820083630 0
+mj12bot 1 3494 20130809085948 0
+nutch 1 3494 20130822111944 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+eot 3 236554 0 0
+css 550 1362589 0 0
+png 4187 36613260 0 0
+ttf 7 349511 0 0
+ico 59 32200 0 0
+woff 151 3443520 0 0
+html 512 3726657 0 0
+js 362 5577008 0 0
+Unknown 1 6978 0 0
+svg 5 1042386 0 0
+gif 1349 18895375 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 8
+winxp 56
+winlong 252
+winnt 171
+linuxubuntu 2215
+linux 3688
+macosx 799
+win2003 1
+Unknown 4
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 21
+msie6.0 1
+firefox5.0 1
+msie5.01 1
+firefox3.0.1 1
+firefox3.0 1
+opera 45
+lynx 2
+msie5.5 3
+msie8.0 1
+firefox6.0.2 1
+mozilla 72
+msie7.0 261
+firefox22.0 89
+firefox14.0.1 1
+firefox23.0 3751
+firefox16.0 2
+wget 45
+Unknown 2
+firefox15.0.1 12
+firefox3.6.8 13
+safari 2881
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130816081714
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20130828221103
+gvfs/1.12.1 20130827134105
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+BlackBerry9000/4.6.0.167_Profile/MIDP-2.0_Configuration/CLDC-1.1_VendorID/102_ips-agent 20130816081714
+gvfs/1.12.1 20130827134105
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 482 574
+From1 0 0
+From2 23 23
+From3 4 4
+From4 170 6585
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 14 14
+baidu 9 9
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+http://www.microngenesis.com 2 2
+http://killmalware.com/www.alphaviridis.com/ 1 1
+http://www.mdliquidation.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 2
+alphaviridis 6
+www.alphaviridis.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 2
+alphaviridis 6
+www.alphaviridis.com 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+206 1 5001
+400 3 1791
+404 798 569502
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 97
+/robots.txt 158 -
+/admin/config.php 1 -
+/images/settings-button.png 1 http://www.alphaviridis.com/css/style.css
+/images/icon-twitter.png 1 http://www.alphaviridis.com/css/style.css
+/images/notifyme-blue.png 1 http://www.alphaviridis.com/css/style.css
+/mysqladmin/ 1 -
+/images/alpha-viridis-logo.png 2 http://alphaviridis.com/css/alpha.css
+/plus/flink_add.php 2 http://50.6.218.82/
+/invoker/JMXInvokerServlet 1 -
+/application/x-ecmascript 1 -
+/a/segouchengrenjiqinglunli/20110113/88.html 3 -
+/a[i+2] 1 -
+/images/cross-gray.png 1 http://www.alphaviridis.com/css/style.css
+/images/stay-informed.png 1 http://www.alphaviridis.com/css/style.css
+/a/qingsewuyueyinyin/20110113/98.html 3 -
+/images/circle-green.png 1 http://www.alphaviridis.com/css/style.css
+/wordpress 1 http://alphaviridis.com/wordpress
+/images/00.gif 192 http://alphaviridis.com/
+/blog 1 http://alphaviridis.com/blog
+/a/zuihaodeseqingyouxi/ 1 -
+/a/qingsewuyueyinyin/list_3_1.html 3 -
+/a/zuihaodeseqingyouxi/20110111/8.html 24 http://50.6.218.82/
+/images/icon-facebook.png 1 http://www.alphaviridis.com/css/style.css
+/images/submit-blue.png 1 http://www.alphaviridis.com/css/style.css
+/a/qingsewuyueyinyin/20110113/96.html 3 -
+/images/footer-border-blue.png 1 http://www.alphaviridis.com/css/style.css
+/phpmyadmin/ 1 -
+/a/xiaodianyingxiazai/20110111/83.html 23 http://50.6.218.82/
+/a/zuihaodeseqingyouxi/20110111/81.html 22 http://50.6.218.82/
+/loaded 1 -
+/jquery.org/license 1 -
+/images/body-bg-2.png 1 http://www.alphaviridis.com/css/style.css
+/a/qingsewuyueyinyin/20110120/130.html 4 -
+/%70%68%70%70%61%74%68/%70%68%70 1 -
+/a/qingsewuyueyinyin/20110111/77.html 1 -
+/a/qingsewuyueyinyin/list_3_2.html 2 -
+/a/segouchengrenjiqinglunli/20110111/17.html 11 http://50.6.218.82/
+/text/plain 1 -
+/HNAP1/ 9 http://50.6.218.82/
+/a/xiaodianyingxiazai/20110111/61.html 1 -
+/images/circle-blue.png 1 http://www.alphaviridis.com/css/style.css
+/plus/flink.php 1 -
+/images/icon-address.png 1 http://www.alphaviridis.com/css/style.css
+/a 1 -
+/phpMyAdmin/scripts/setup.php 1 -
+/a/qingsewuyueyinyin/20110113/89.html 4 -
+/a/zuihaodeseqingyouxi/20110113/85.html 18 http://50.6.218.82/
+/a/xiaodianyingxiazai/20110120/127.html 25 http://50.6.218.82/
+/a/qingsewuyueyinyin/20110111/58.html 20 http://50.6.218.82/
+/text/html 1 -
+/a/qingsewuyueyinyin/20110113/100.html 3 -
+/images/ave-star.gif 38 http://alphaviridis.com/
+/images/body-bg-3.png 1 http://www.alphaviridis.com/css/style.css
+/drupal 1 http://alphaviridis.com/drupal
+/images/body-bg-4.png 1 http://www.alphaviridis.com/css/style.css
+/a/qingsewuyueyinyin/list_3_4.html 4 -
+/text/javascript 1 -
+/apple-touch-icon.png 1 -
+/a/xiaodianyingxiazai/20110111/26.html 4 -
+/images/icon-email.png 1 http://www.alphaviridis.com/css/style.css
+/a/qingsewuyueyinyin/20110123/156.html 22 http://50.6.218.82/
+/fvxhypm2vz6lsths.html 1 http://www.alphaviridis.com/
+/MyAdmin/scripts/setup.php 1 -
+/images/ave-logo.png 36 http://alphaviridis.com/
+/a/qingsewuyueyinyin/20110123/153.html 23 http://50.6.218.82/
+/phpmyadmin/scripts/setup.php 1 -
+/a/xiaodianyingxiazai/20110120/122.html 2 -
+/a/qingsewuyueyinyin/20110115/115.html 2 -
+/text/xml 1 -
+/joomla 1 http://alphaviridis.com/joomla
+/user/soapCaller.bs 2 -
+/a/zuihaodeseqingyouxi/20110120/132.html 22 http://50.6.218.82/
+/phppath/php 2 -
+/a/qingsewuyueyinyin/ 4 -
+/apple-touch-icon-precomposed.png 1 -
+/icons/apache_pb.gif 1 -
+/a/qingsewuyueyinyin/20110113/93.html 2 -
+/a/qingsewuyueyinyin/20110111/68.html 3 -
+/a/qingsewuyueyinyin/20110123/154.html 2 -
+/images/notifyme-green.png 1 http://www.alphaviridis.com/css/style.css
+/a/zuihaodeseqingyouxi/20110113/105.html 23 http://50.6.218.82/
+/a/xiaodianyingxiazai/20110111/84.html 1 -
+/a/qingsewuyueyinyin/20110120/128.html 3 -
+/a/xiaodianyingxiazai/20110122/148.html 3 -
+/a/zuihaodeseqingyouxi/20110111/69.html 3 -
+/a/xiaodianyingxiazai/ 1 -
+/wp 1 http://alphaviridis.com/wp
+/pma/scripts/setup.php 1 -
+/application/x-www-form-urlencoded 1 -
+/manager/html 3 -
+/a/qingsewuyueyinyin/list_3_3.html 3 -
+/a/segouchengrenjiqinglunli/ 1 -
+/api/dom/no_respond/ 1 -
+/pic/images/6/1390020146/7/e/627ecf97fa62251cc59e4026d8f51eb3-0-5708.png 1 -
+/mysql-admin/ 1 -
+/data/sitemap.html 1 -
+/a/qingsewuyueyinyin/20110113/97.html 6 -
+END_SIDER_404
+
+# Plugin key - Pages - Hits - Bandwidth - Last access
+BEGIN_PLUGIN_geoip_city_maxmind 28
+ec_quito_18 0 5802 0 0
+unknown 0 477 0 0
+us_bloomingdale_il 0 474 0 0
+cn_shenzhen_30 0 122 0 0
+us_tampa_fl 0 77 0 0
+us_hoffman%20estates_il 0 51 0 0
+fr_paris_a8 0 44 0 0
+us_woodland_ca 0 39 0 0
+us_bradenton_fl 0 39 0 0
+us_simi%20valley_ca 0 33 0 0
+us_redlands_ca 0 1 0 0
+de_kiez_12 0 1 0 0
+ua_kiev_13 0 2 0 0
+lt_vilnius_65 0 2 0 0
+ge_tbilisi_19 0 1 0 0
+us_sterling_va 0 2 0 0
+za_cape%20town_11 0 2 0 0
+cn_shanghai_23 0 1 0 0
+cn_beijing_22 0 3 0 0
+us_denver_co 0 4 0 0
+cn_jinan_25 0 1 0 0
+cn_guizhou_30 0 2 0 0
+tw_taipei_03 0 1 0 0
+cl_las%20condes_12 0 1 0 0
+br_são%20paulo_27 0 1 0 0
+us_overland%20park_ks 0 1 0 0
+nl_amsterdam_07 0 1 0 0
+cn_shenyang_19 0 1 0 0
+END_PLUGIN_geoip_city_maxmind
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 152
+190.10.164.207 279 5802 56644457 20130831190244
+99.52.168.139 31 474 3026838 20130830020845
+119.63.193.130 25 25 275309 20130831085659
+119.63.193.132 25 25 275309 20130831165437
+119.63.193.195 23 23 253275 20130831225336
+119.63.193.196 22 22 242316 20130831105237
+119.63.193.194 18 18 198219 20130831205548
+119.63.193.131 17 17 187289 20130827105347
+88.191.179.26 13 44 1564191 20130802060436
+54.208.47.191 7 7 24714 20130804121529
+89.105.234.59 1 1 11017 20130818094123
+202.46.57.62 1 1 11017 20130828145821
+207.189.121.41 4 4 44010 20130831060209
+202.46.56.55 1 1 11017 20130804105320
+202.46.62.26 1 1 11017 20130823065441
+88.190.12.3 5 5 55085 20130822060713
+202.46.63.70 1 1 11017 20130802025824
+202.46.48.25 1 1 11017 20130802185536
+71.100.233.50 3 39 576220 20130806185911
+202.46.52.32 1 1 11017 20130804045535
+202.46.50.12 1 1 11017 20130827085912
+202.46.62.15 2 2 22034 20130823145751
+76.14.155.37 3 39 576220 20130823111503
+208.54.85.207 3 33 519352 20130806192415
+202.46.63.121 1 1 10988 20130831165357
+202.46.56.49 1 1 11017 20130804165604
+212.58.116.79 1 1 11017 20130802175559
+202.46.62.91 1 1 11017 20130829005700
+202.46.62.24 1 1 11017 20130825105203
+59.125.118.188 1 1 3475 20130825153840
+202.46.63.42 1 1 11017 20130823225317
+202.46.56.46 1 1 10988 20130831085612
+202.46.50.19 1 1 11017 20130802085937
+166.147.104.175 3 38 574904 20130821212154
+202.46.60.63 1 1 11017 20130828085900
+202.46.54.110 1 1 11017 20130806105326
+208.54.36.176 3 33 0 20130831035359
+202.46.53.33 1 1 11017 20130804085802
+202.46.62.28 1 1 11017 20130825065357
+202.46.52.34 1 1 11017 20130806065527
+202.46.55.58 1 1 11017 20130802145749
+202.46.55.193 1 1 11017 20130809045545
+202.46.52.26 1 1 11017 20130825225415
+202.46.61.25 1 1 11017 20130808025634
+202.46.55.53 1 1 11017 20130825085800
+202.46.63.73 1 1 10988 20130829225350
+202.46.58.22 1 1 11017 20130801005728
+202.46.48.17 1 1 11017 20130802045525
+103.20.192.206 1 1 3475 20130812022138
+192.96.204.42 2 2 6969 20130811101950
+202.46.63.46 1 1 11017 20130824005729
+202.46.60.60 1 1 11017 20130808105308
+58.247.194.122 1 1 3475 20130828123111
+202.46.55.20 2 2 22034 20130828025658
+202.46.48.19 1 1 11017 20130823025719
+202.46.60.66 1 1 11017 20130806145739
+202.46.50.14 1 1 11017 20130823185457
+202.46.62.92 1 1 10988 20130831145552
+202.46.63.122 1 1 11017 20130802130008
+202.46.60.64 2 2 22005 20130831025639
+202.46.63.41 1 1 10983 20130829145750
+206.225.83.83 1 1 3531 20130817175809
+202.46.63.120 1 1 11017 20130825125830
+144.76.113.197 1 1 11017 20130822103552
+202.46.57.85 2 2 22005 20130831065335
+173.227.230.236 5 5 55027 20130831062456
+202.46.58.32 1 1 11017 20130823005702
+202.46.53.38 2 2 22034 20130809085822
+202.46.54.122 3 3 33051 20130828205821
+5.9.149.166 1 1 3475 20130809151419
+202.46.49.70 2 2 22034 20130825185459
+202.46.51.51 1 1 11017 20130827065414
+202.46.55.27 1 1 11017 20130823105206
+198.100.150.90 1 1 11017 20130808093649
+192.95.22.206 1 1 11017 20130823184643
+69.58.178.57 2 2 22034 20130816081714
+208.54.85.226 3 38 575071 20130806191218
+202.46.48.13 1 1 11017 20130829125916
+202.46.57.83 1 1 11017 20130804145618
+202.46.53.61 1 1 11017 20130825045436
+202.46.56.52 1 1 11017 20130806025726
+218.60.148.5 1 1 3475 20130823071013
+202.46.55.36 1 1 11017 20130827125812
+202.46.48.26 1 1 11017 20130829030324
+202.46.63.71 3 3 33022 20130831105201
+67.184.94.35 6 51 794529 20130828173756
+124.128.85.206 1 1 3475 20130823143708
+202.46.56.42 1 1 11017 20130804185620
+202.46.60.16 1 1 10988 20130831225258
+95.133.231.108 1 1 11017 20130818094152
+12.161.13.93 3 40 576222 20130828132325
+202.46.62.33 1 1 11017 20130827165634
+202.46.54.47 2 2 22034 20130825210118
+202.46.56.51 1 1 11017 20130823165625
+202.46.57.68 2 2 22034 20130828065524
+202.46.51.46 1 1 11017 20130802105130
+71.103.158.236 1 1 3494 20130814200730
+202.46.53.35 1 1 11017 20130827225407
+202.46.50.158 1 1 11017 20130808125901
+202.46.56.47 1 1 11017 20130825025722
+202.46.57.63 1 1 11017 20130829090141
+202.46.54.46 1 1 11017 20130802225405
+202.46.52.22 2 2 22034 20130827145649
+202.46.59.76 1 1 11017 20130808065458
+64.109.175.237 7 100 576220 20130818221539
+173.227.230.232 3 4 73423 20130831051337
+190.196.9.155 1 1 11017 20130804105531
+202.46.58.21 1 1 11017 20130809030354
+202.46.54.42 1 1 11017 20130825165556
+202.46.63.69 1 1 10988 20130829205640
+202.46.50.18 1 1 10988 20130829185623
+78.158.11.226 2 2 22034 20130828221103
+202.46.63.123 1 1 11017 20130808230534
+202.46.55.54 1 1 11017 20130828045459
+202.46.57.84 3 3 32993 20130831205504
+173.65.57.239 6 77 1151291 20130806191308
+54.208.108.204 5 5 17653 20130815171548
+202.46.54.51 1 1 11017 20130823205729
+202.46.61.147 1 1 11017 20130807005705
+202.46.63.72 1 1 11017 20130806185614
+202.46.58.29 1 1 11017 20130829105332
+202.46.57.65 1 1 11017 20130806165622
+202.46.59.48 1 1 11017 20130825145608
+202.46.49.73 1 1 11017 20130803005831
+202.46.57.82 1 1 11017 20130823085912
+220.181.51.81 1 1 3494 20130822051400
+202.46.49.19 1 1 11017 20130802065530
+124.14.8.26 1 1 3475 20130821152329
+202.46.58.34 2 2 22034 20130829065517
+202.46.61.34 2 2 22005 20130831185349
+199.30.24.119 4 33 876624 20130820144324
+202.46.55.30 1 1 11017 20130804125900
+202.46.63.47 1 1 10988 20130829165711
+94.102.51.246 1 1 11017 20130825193221
+202.46.59.73 1 1 11017 20130823045536
+202.46.49.14 1 1 11017 20130829045549
+202.46.61.22 1 1 10988 20130830005742
+202.46.54.40 1 1 11017 20130808045503
+202.46.57.80 1 1 11017 20130808185624
+202.46.62.11 1 1 11017 20130827205739
+208.54.85.166 3 35 13243 20130808182509
+218.94.119.154 1 1 11017 20130815204351
+202.46.57.67 1 1 11017 20130808145747
+218.201.233.163 2 2 6942 20130831091921
+202.46.63.77 2 2 22034 20130828125926
+202.46.58.30 3 3 33022 20130831045516
+202.46.51.44 1 1 11017 20130828110504
+202.46.63.79 1 1 11017 20130806225334
+189.68.208.49 1 1 3475 20130827233459
+202.46.60.61 2 2 22034 20130809005933
+202.46.48.29 1 1 11017 20130828185715
+202.46.51.48 1 1 11017 20130828165650
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 28
+20130801 2 2 22034 2
+20130802 36 67 1817582 24
+20130803 2 2 22034 2
+20130804 30 30 278105 24
+20130805 1 1 11017 1
+20130806 37 209 3064308 26
+20130807 2 2 22034 2
+20130808 31 64 362149 27
+20130809 10 10 102628 10
+20130811 5 41 583189 2
+20130812 4 13 221783 2
+20130814 4 42 579714 2
+20130815 21 188 1181110 4
+20130816 2 2 22034 1
+20130817 1 1 3531 1
+20130818 12 141 1174474 4
+20130820 4 33 876624 1
+20130821 11 82 1198667 5
+20130822 13 51 678867 11
+20130823 33 106 1434815 29
+20130824 2 2 22034 2
+20130825 36 180 1985527 28
+20130826 2 2 22034 2
+20130827 27 63 822069 25
+20130828 113 1860 12329206 31
+20130829 190 3788 41909618 27
+20130830 11 102 165000 5
+20130831 37 102 373851 29
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 2
+30s-2mn 1
+15mn-30mn 8
+0s-30s 316
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 16
+/ 502 3684373 319 283
+/fonts/Sansation_Light.woff 75 1722149 0 27
+/fonts/Sansation_Regular.woff 75 1690063 0 8
+http://www.baidu.com/ 9 31267 8 8
+/fonts/Sansation_Regular.ttf 3 137326 1 0
+/fonts/Sansation_Light.ttf 3 133445 0 0
+/fonts/Sansation_Light.svg 2 416518 0 2
+/fonts/Sansation_Regular.svg 2 416974 0 0
+/fonts/Sansation_Bold.eot 1 78918 0 0
+http://24x7-allrequestsallowed.com/ 1 11017 1 1
+/fonts/Sansation_Regular.eot 1 78654 0 0
+/fonts/Sansation_Bold.woff 1 31308 0 0
+/fonts/Sansation_Bold.svg 1 208894 0 0
+/fonts/Sansation_Bold.ttf 1 78740 0 0
+/images/alpha-viridis-logo.png_bak 1 6978 0 0
+/fonts/Sansation_Light.eot 1 78982 0 0
+END_SIDER
